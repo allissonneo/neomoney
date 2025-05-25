@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
 :root{
     /* --background: #f0f2f5; */
     --red: #E52E4D;
@@ -86,4 +86,4 @@ button{
 }
 
 `
-export default GlobalStyle;
+// export default GlobalStyle;
